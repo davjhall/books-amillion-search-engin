@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "watch": "nodemon server.js",
-    "heroku-postbuild": "cd ../client && npm install --no-shrinkwrap && npm --prefix ../client run build "
+    "watch": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
