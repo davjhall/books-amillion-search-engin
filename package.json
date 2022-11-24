@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "build": "react-scripts build",
-    "heroku-postbuild": "cd client && npm install && npm --prefix ../client run build "
+    "postinstall": "cd client && npm install",
+    "heroku-postbuild": "npm --prefix ../client run build "
   },
   "keywords": [],
   "author": "",
